@@ -1,5 +1,5 @@
 # PokemonSpriteCNN
-https://github.com/pprestridge/PokemonSpriteCNN/issues/1#issue-952401398
+![dit](https://user-images.githubusercontent.com/17886837/126919781-3d22d5e9-3807-43a8-acb7-e92af9be56a8.PNG)
 
 # Introduction
 If you're anything like me and grew up in the early 2000s, you probably also have the same fascination I do with Pokemon. I used to "borrow" my brother's Gameboy to play Pokemon Crystal so much that my parents had to end up getting me my own. My intention for this project was to combine my nostalgic appreciation for Pokemon and cement some python and machine learning concepts I've been watching on Coursera. The goal was to create some model that takes in an image of a Pokemon and predicts its type (fire, water, grass, etc.) and its stats.
