@@ -24,3 +24,5 @@ The next step is to develop a model that translates images into numerical values
 Putting this all together,  we have a model that takes an image of a Pokémon and predicts its typing and stats. One model handles the image encoding and classification, and the second model leverages the image encoding of the first model to predict its stats.
 
 This project was a good opportunity to get some TensorFlow development under my belt, learn how to webscrape, and do some machine learning model development.
+![modleout](https://user-images.githubusercontent.com/17886837/126919976-8c40c498-cd0c-4513-befc-0ef93206179a.PNG)
+![ditto](https://user-images.githubusercontent.com/17886837/126919988-ffdfbd56-de3f-4030-a33b-42154c35ead6.PNG)
