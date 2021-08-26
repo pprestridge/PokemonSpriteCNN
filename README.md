@@ -2,7 +2,7 @@
 ![CharizardDon3](https://user-images.githubusercontent.com/17886837/131034019-22477bf3-1513-44c1-af13-b888fbb134c9.PNG)
 
 # Introduction
-If you're anything like me and grew up in the early 2000s, you probably also have the same fascination I do with Pokemon. I used to "borrow" my brother's Gameboy to play Pokemon Crystal so much that my parents had to end up getting me my own. My intention for this project was to combine my nostalgic appreciation for Pokemon and cement some python and machine learning concepts I've been watching on Coursera. The goal was to create some model that takes in an image of a Pokemon and predicts its type (fire, water, grass, etc.) and its stats.
+If you're anything like me and grew up in the early 2000s, you probably also have the same fascination I do with Pokemon. I used to "borrow" my brother's Gameboy to play Pokemon Crystal so much that my parents had to end up getting me my own. My intention for this project was to combine my nostalgic appreciation for Pokemon and cement some python and machine learning concepts I've been watching on Coursera. The goal was to create some model that takes in an image of a Pokemon and predicts its type (fire, water, grass, etc.) and stats.
 
 
 # WebScraping and Data Agumentation
