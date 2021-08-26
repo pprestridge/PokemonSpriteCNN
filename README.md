@@ -6,7 +6,7 @@ If you're anything like me and grew up in the early 2000s, you probably also hav
 
 
 # WebScraping and Data Agumentation
-The first step of this project was to compile all the images to train the model. I started by webscrapping all of the images from the most recent generation, which resulted in ~800 training examples for 20 different classes. The thinking was that higher resolution training examples would provide better training data; however, that decision proved poor. It was challenging to train the model with that few training examples, so I went back and downloaded more from older generations to have closer to 6k training examples.  To further augment the data, the convolutional model included a random horizontal flip and a random rotation. Images of the current training dataset can be seen below
+The first step of this project was to compile all the images to train the model. I started by webscrapping all of the images from the most recent generation, which resulted in ~800 training examples for 20 different classes. The thinking was that higher resolution training examples would provide better training data; however, that decision proved poor. It was challenging to train the model with that few training examples, so I went back and downloaded more from older generations to have closer to 6k training examples.  To further augment the data, I used TensorFlow's ImageDataGenerator to apply random flips, shears, and zooms. Images of the current training dataset can be seen below
 
 ![Training Example](https://user-images.githubusercontent.com/17886837/131034676-3ee61758-48de-47db-805c-fe99041cec2d.PNG)
 
