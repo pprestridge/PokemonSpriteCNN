@@ -35,7 +35,6 @@ This project was a good opportunity to get some TensorFlow development under my 
 # Data Visualization
 To diagnose the model further, I thought it would be useful to dive deeper into the image encoding (The last layer before the classification softmax and regression layer). To do this, a PCA was applied to dataset of image encodings. The PCA only considered the three eigenvectors with the highest eigenvalues (Directions that capture the most variation in the data). Then along these axis, we can see a lower fidelity version of what the model is using to make predictions. The gif below shows the grouping of Fire, Grass, and Water encodings.
 
-![PCA](https://user-images.githubusercontent.com/17886837/131038907-e5f7b94d-d4c1-452d-b829-a238450a101f.png)
 ![rotation](https://user-images.githubusercontent.com/17886837/131039115-17799fce-3c6e-4f54-b875-9d89c9817ec8.gif)
 
 If you're still here, I'll let you in on a little secret. The project was a just a facade so that I could do this last part.
