@@ -28,3 +28,7 @@ Putting this all together,  we have a model that takes an image of a Pokémon a
 This project was a good opportunity to get some TensorFlow development under my belt, learn how to webscrape, and do some machine learning model development.
 ![modleout](https://user-images.githubusercontent.com/17886837/126919976-8c40c498-cd0c-4513-befc-0ef93206179a.PNG)
 ![ditto](https://user-images.githubusercontent.com/17886837/126919988-ffdfbd56-de3f-4030-a33b-42154c35ead6.PNG)
+
+If you're still here, I'll let you in on a little secret. The project was a just a facade so that I could do this last part.
+![Patrick](https://user-images.githubusercontent.com/17886837/131034202-bc436e3e-f01b-482c-bf7c-5b0354de146a.JPEG)
+![PatrickPrediction](https://user-images.githubusercontent.com/17886837/131034199-904ffa75-8dad-4be0-b11f-103cadbdde86.png)
