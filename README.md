@@ -1,6 +1,5 @@
 # PokemonSpriteCNN
-![Model Diagram](https://user-images.githubusercontent.com/17886837/126919949-b3263b0c-d084-4b9a-a0ec-60efa14ada21.PNG)
-
+![CharizardDon3](https://user-images.githubusercontent.com/17886837/131034019-22477bf3-1513-44c1-af13-b888fbb134c9.PNG)
 
 # Introduction
 If you're anything like me and grew up in the early 2000s, you probably also have the same fascination I do with Pokemon. I used to "borrow" my brother's Gameboy to play Pokemon Crystal so much that my parents had to end up getting me my own. My intention for this project was to combine my nostalgic appreciation for Pokemon and cement some python and machine learning concepts I've been watching on Coursera. The goal was to create some model that takes in an image of a Pokemon and predicts its type (fire, water, grass, etc.) and its stats.
@@ -12,6 +11,9 @@ The first step of this project was to compile all the images to train the model.
 
 # Convolutional Model Development
 Given the size of the dataset and that Pokémon type recognition seemed akin to classifying animals at a zoo, transfer learned from readily available pre-trained networks seemed like an auspicious path. To optimize the model selection process, I parameterized the model to consider different number of fully connected layers,  dropout rates, nodes per layer, and how many layers of the original model to freeze. Then, a script would facilitate creating, training, and ranking models within the parameterized design space. For a project without that many training examples and relatively few trainable parameters, this allowed for a wide variety of models to quickly be considered.  Ultimately, I arrived at a validation set and test set accuracy of ~62%. 
+
+![Model Diagram](https://user-images.githubusercontent.com/17886837/126919949-b3263b0c-d084-4b9a-a0ec-60efa14ada21.PNG)
+
 
 Only 3 classes comprised 70% of the training data, which was one of the major issues. Another issue was the inconsistency in the training data. Not all images were of similar quality or same size. With more time, I would make a confusion matrix to better understand the error and work on image handling to improve the train and test dataset.  Developing a framework to understand the error was challenging, because in theory, the Bayes Error is 0%. There are people who know the typing of every Pokémon, but that's because there are a finite number of Pokémon and that can easily be memorized. On the other hand, the model is tasked with the task of classifying Pokémon it hasn't seen before, which explains the 38% avoidable bias. Although impossible to quantify, the error for experts completing the same task as the model would likely be greater than 0%.
 
