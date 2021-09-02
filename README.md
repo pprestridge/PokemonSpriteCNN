@@ -13,7 +13,7 @@ The first step of this project was to compile all the images to train the model.
 # Convolutional Model Development
 The training data looks sufficient at this point. Now, we can look at developing the convolutional model. Given the size of the dataset and that Pokémon type recognition seemed akin to classifying animals at a zoo, transfer learned from readily available pre-trained networks seemed like an auspicious path.
 
-To speed up the model selection profess, I opted to reduce the image size down to 75x75 to weed our poorly performing models in favor of moe auspicious architectures. Then, once I was happy with the model, I updated image size to 128x128. Althought it drastically increased the training time, the accuracy increased by around 20% with the increased resolution. Since all of teh preliminary development was done on smaller files, I was able to consider more options quicker. Ultimately, I arrived at a validation set accuracy of ~76%.
+To speed up the model selection process, I opted to reduce the image size down to 75x75 to weed out poorly performing models in favor of more auspicious architectures. Then, once I was happy with the model, I updated image size to 128x128. Although it drastically increased the training time, the accuracy increased by around 20% with the increased resolution. Since all of the preliminary development was done on smaller files, I was able to consider more options quicker. Ultimately, I arrived at a validation set accuracy of ~76%.
 
 ![Model Diagram](https://user-images.githubusercontent.com/17886837/126919949-b3263b0c-d084-4b9a-a0ec-60efa14ada21.PNG)
 
